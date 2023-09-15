@@ -7,6 +7,7 @@ import 'package:diayma/pages/vendeurPage.Dart';
 import 'pages/login_page.dart';
 import 'package:diayma/pages/choixPage.dart';
 import 'package:diayma/pages/login_page_retour.dart';
+import 'package:diayma/pages/AjoutArticle.dart';
 
 void main() => runApp(MyApp());
 
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
         "inscription_page": (context) => InscriptionPage(),
         "choixPage": (context) => ChoixPage(),
         "vendeurPage": (context) => VendeurPage(),
+        "ajoutArticle": (context) => AjoutArticle(),
       },
     );
   }
